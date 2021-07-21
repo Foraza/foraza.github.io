@@ -79,10 +79,10 @@ iframe{
 }
 
 .imgRet{
-	height: 330px;
-	width: 210px;
+	height: 370px;
+	width: 250px;
 	position: absolute;
-	margin-bottom: 20%;
+	margin-top: -7%;
 }
 
 #textoRet{
