@@ -1,0 +1,59 @@
+:root{
+	--cor-letras: #E8F1F2;
+	--cor-background: radial-gradient(#1B98E0,#006494)
+}
+
+/*Define o estilo do formulário*/
+.formulario{
+	color: var(--cor-letras);
+	border: solid var(--cor-letras);
+    border-radius: 10px;
+	margin: 50px;
+}
+
+.formulario legend{
+	font-size: 1.7em;
+	font-family: "Cooper black";
+}
+
+.formulario form{
+	display: table;
+	margin-left: 33%;
+}
+
+.formulario label{
+    font-size: 1.2em;
+	margin-left: 2.5%;
+    position: absolute;
+    padding: 10px;
+}
+
+.formulario input{
+	border: solid black 2px;
+	float: none;
+	display: inline-block;
+	margin-left: 37%;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.formulario textarea{
+    margin-left: 2.7%;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+/*Configura os botões*/
+.formulario button{
+	padding: 10px 20px;
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+#enviar{
+    margin-left: 20%;
+}
+
+#resetar{
+    margin-left: 14%;
+}

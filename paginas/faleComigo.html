@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="autor" content="Gabriel Fogaça Silva">
+		<meta name="keywords" content="html5 css trabalho">
+		<meta name="editor" content ="Visual Studio Code">
+		<title>Universo Foraza</title>
+		<link rel="shortcut icon" href="../imagens/logo(1).png">
+		<link rel="stylesheet" type="text/css" href="../css/estiloPrincipal.css">
+		<link rel="stylesheet" type="text/css" href="../css/estiloMenu.css">
+        <link rel="stylesheet" type="text/css" href="../css/fromulario.css">
+        <script type="text/javascript" src="../script/validacao.js"></script>
+    </head>
+        <body>		
+            <header>		
+                <a id="inicio">
+                <div class="logo">
+                    <a href="../index.html"><img src="../imagens/logo(1).png"></a>
+                </div>			
+                    <nav class="menu">
+                        <ul>							
+                            <li><a href="#">Projetos</a>
+                                <ul>
+                                    <li><a href="estagio.html">Estágio</a></li>
+                                    <li><a href="edicao.html">Edição de vídeo</a></li>
+                                </li></ul>
+                            <li><a href="formacao.html">Formação</a></li>
+                            <li><a href="faleComigo.html">Fale comigo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <fieldset class="formulario"><legend>Informações para contato</legend>
+                <form action="#" method="POST" name="infVisitante">
+                    <label for="nome">Nome:</label>                    
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo"><br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="Seu e-mail" onblur="validarEmail()"><br><br>
+                    <label for="tel">Telefone:</label>
+                    <input type="number" id="tel" name="tel" placeholder="Seu telefone"><br><br><br>
+                    <label for="opniao" style="margin-left: 2.2em;">Me fale um pouco mais sobre você:</label><br><br>
+                    <textarea id="opiniao" name="opiniao" rows="10" cols="50" placeholder="Seu texto aqui..."></textarea><br><br>
+                    <button type="submit" id="enviar" onclick="validar()">Enviar</button>
+                    <button type="reset" id="resetar">Apagar tudo</button>
+                </form>
+            </fieldset>
+            <footer>
+                <fieldset class="rodape" >
+                    <a href="#inicio"><input type="button" value="Voltar ao topo"></a>
+                    <legend>Contatos:</legend>
+                        <a href="mailto:gabrielfogassa@gmail.com" target="blank">
+                            <img src="../imagens/email.png" style="margin-left: 80%;">
+                        </a>
+                        <a href="https://www.instagram.com/o_fogas/" target="blank">
+                            <img src="../imagens/insta.png" style="margin-left: 2%;">
+                        </a>
+                        <a href="https://wa.me/+5511948043245" target="blank">
+                            <img src="../imagens/whats.png" style="margin-left: 2%;">
+                        </a>							
+                </fieldset>
+            </footer>
+        </body>
+</html>

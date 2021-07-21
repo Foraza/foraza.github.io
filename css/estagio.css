@@ -1,0 +1,29 @@
+.estagio{
+    border: none;
+	display: table;
+}
+
+.estagio img{
+    width: 450px;
+	height: 300px;
+	position: absolute;
+}
+
+#imgEstudio{
+    margin-left: 57%;
+}
+
+#textoEstudio{
+    color: var(--cor-primaria);
+	font-size: 1.5em;
+	margin-right: 45%;
+}
+
+
+
+#textoAvaliacao{
+	color: var(--cor-primaria);
+	font-size: 1.5em;
+	font-family: "Arial";
+	margin-left: 45%;
+}
