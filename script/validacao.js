@@ -10,10 +10,16 @@ function validar(){
     visitante.telefone = document.getElementById("tel").value;
     visitante.mensagem = document.getElementById("opiniao").value;
     if(visitante.nome=="" || visitante.email=="" || visitante.telefone=="" || visitante.mensagem==""){
-        window.alert("Preencha todos os campos!");
+        alert("Preencha todos os campos!");
     }
     else{
-        window.alert("Obrigado pela mensagem, "+visitante.nome+"!");
+        var resp = prompt("Confirme suas informações:\n\nNome: "+visitante.nome+"\nEmail: "+visitante.email+"\nTelefone: "+visitante.telefone+"\n\nDigite 'OK' para confirmar e 'NAO' para alterar");
+        if(resp.toUpperCase() == "OK"){
+            alert("Obrigado pela mensagem, "+visitante.nome+"!\nEntrarei em contato assim que possível!");
+        }
+        else{
+            alert("Sem problemas! Insira as informações novamente.");
+        }
     }
 }
 

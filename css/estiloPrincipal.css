@@ -142,6 +142,14 @@ iframe{
     transform: scale(1.1);
 }
 
+.rodape p{
+	font-family: "Times New Roman";
+	font-size: 1.2em;
+	text-align: center;
+	color: var(--cor-primaria);
+	margin-top: -1%;
+}
+
 footer input{
 	border: solid black 2px;
 	border-radius: 10px;
